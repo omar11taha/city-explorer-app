@@ -31,7 +31,7 @@ app.get("/weather",async (request, response) => {
   const city_name = request.query.city_name;
   // const lat = request.query.lat;
   
-// console.log(request.query);
+// console.log(request. query);
   if (city_name) {
 
 // https://api.weatherbit.io/v2.0/forecast/daily?city=amman&key=2cc93e8b21454643b2a74f690e759280
