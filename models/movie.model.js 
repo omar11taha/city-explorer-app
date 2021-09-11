@@ -1,0 +1,13 @@
+'use strict'
+
+class Moovies {
+  constructor(id ,logo_path, name, origin_country) {
+    this.id =id;
+    this.logo_path =logo_path;
+    this.name =name;
+    this.origin_country =origin_country;
+
+  }
+}
+
+module.exports = Moovies;
